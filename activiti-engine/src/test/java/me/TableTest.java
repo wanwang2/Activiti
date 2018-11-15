@@ -17,7 +17,7 @@ public class TableTest {
 	@Test
 	public void createTable() {
 		ProcessEngineConfiguration config = ProcessEngineConfiguration.createStandaloneProcessEngineConfiguration();
-		config.setJdbcUrl("jdbc:mysql://localhost:3306/activiti");
+		config.setJdbcUrl("jdbc:mysql://localhost:3306/wan");
 		config.setJdbcDriver("com.mysql.jdbc.Driver");
 		config.setJdbcUsername("root");
 		config.setJdbcPassword("root");
